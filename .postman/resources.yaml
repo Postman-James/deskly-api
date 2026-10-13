@@ -1,9 +1,8 @@
-# Use this workspace to collaborate
 workspace:
   id: 44e2c9fc-2824-41f1-9871-4a18cb0dc5cd
-
-# All resources in the `postman/` folder are automatically registered in Local View.
-# Point to additional files outside the `postman/` folder to register them individually. Example:
-#localResources:
-#  collections:
-#    - ../tests/E2E Test Collection/
+localResources:
+  specs:
+    - ../postman/specs/Deskly API/Deskly API.yaml
+resourceNameMappings:
+  specs:
+    - ../postman/specs/Deskly API/Deskly API.yaml: Deskly API
